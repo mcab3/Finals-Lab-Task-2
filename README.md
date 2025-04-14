@@ -24,5 +24,32 @@ Note: Create the appropriate table relationship and enforce necessary REFERENTIA
 
 ## Query Statements:
 **Step 1: Student Table:**  
-PK: username  
-Relation: One to Many  
+Primary Key: username  
+Relation - One to Many  
+<img src="Images/student_table.png" width="300"/>
+
+**Step 2: Assignment Table:**  
+Primary Key: shortname  
+Relation - One to Many  
+<img src="Images/assignment_table.png" width="300"/>
+
+**Step 3: Submission Table:**  
+Primary Key: username, shortname, version  
+Relation - Many to One  
+<img src="Images/submission_table.png" width="500"/>
+
+## Table Structures:
+**Table 1: Student Table**  
+<img src="Images/student_tstructure.png" width="500"/>
+
+**Table 2: Assignment Table**  
+<img src="Images/assignment_tstructure.png" width="500"/>
+
+**Table 3: Submission Table**  
+<img src="Images/submission_tstructure.png" width="500"/>
+
+## Entity Relational Schema
+* Attached iamge of the diagram below:
+## Entity Relationship Diagram 
+* Attached image of the diagram below:  
+<img src="Images/labtask2_EERD.png" width="700"/>
