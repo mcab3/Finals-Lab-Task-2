@@ -49,7 +49,7 @@ Relation - Many to One
 <img src="Images/submission_tstructure.png" width="500"/>
 
 ## Entity Relational Schema
-* Attached iamge of the diagram below:
+* Attached image of the drawing below:
 <img src="Images/entityschema2.png" width="700"/>  
 
 ## Entity Relationship Diagram 
