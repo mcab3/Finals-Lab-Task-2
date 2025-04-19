@@ -6,15 +6,15 @@ portrayal of any weak or reliant entities.
 
 These are the following data types of the attributes for the table and diagram:
 
-* 1. student table:  
+* student table:  
 username: String (VARCHAR), up to 50 characters.
 
-* 2. assignment table:  
+* assignment table:  
 shortname: String (VARCHAR), up to 50 characters.
 due date: Date, cannot be null.
 url: String (VARCHAR), up to 255 characters, can be null.
 
-* 3. submission table:  
+* submission table:  
 username: String (VARCHAR), up to 50 characters.
 shortname: String (VARCHAR), up to 50 characters.
 version: Integer, represents the version of the submission.
@@ -50,6 +50,8 @@ Relation - Many to One
 
 ## Entity Relational Schema
 * Attached iamge of the diagram below:
+<img src="Images/entityschema2.png" width="700"/>  
+
 ## Entity Relationship Diagram 
 * Attached image of the diagram below:  
 <img src="Images/labtask2_EERD.png" width="700"/>
